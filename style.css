@@ -1,0 +1,111 @@
+@font-face {
+    font-family: chi;
+    src: url(Dygyn.otf);
+}
+@font-face {
+    font-family: ddd;
+    src: url(JandaManateeBubble.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: chi;
+}
+
+.head {
+    background-color: black;
+    color: #FFD93D;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.head2 {
+
+background-color: black;
+    font-size: 30px;
+}
+
+#box {
+    /* height: 100px; */
+    /* background-color: aliceblue; */
+    margin-left: 150px;
+    margin-right: 150px;
+    /* border: 2px solid black; */
+
+}
+
+h3 {
+    font-size: 30px;
+    font-family: ddd;
+}
+
+.box1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+.box2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #C1856D;
+    font-size: 20px;
+}
+
+.box3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #B6CEB4;
+    font-size: 20px;
+}
+
+.box4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #A7AAE1;
+    font-size: 20px;
+}
+
+.box5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #DEE791;
+    font-size: 20px;
+}
+
+p {
+    background-color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
