@@ -1,11 +1,13 @@
 @font-face {
     font-family: chi;
-    src: url(Dygyn.otf);
+    src: url(Dygyn.woff);
 }
+
 @font-face {
     font-family: ddd;
-    src: url(JandaManateeBubble.ttf);
+    src: url(JandaManateeSolid.woff);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -36,8 +38,9 @@ h1 {
 
 .head2 {
 
-background-color: black;
+    background-color: black;
     font-size: 30px;
+    font-style: italic;
 }
 
 #box {
@@ -103,9 +106,17 @@ p {
     background-color: aliceblue;
     margin-left: 200px;
     margin-right: 200px;
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
- 
+
+h4 {
+    text-align: center;
+    background-color: #000000;
+    color:  #FFD93D;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
