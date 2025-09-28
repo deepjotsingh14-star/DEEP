@@ -1,11 +1,14 @@
 @font-face {
     font-family: chi;
-    src: url(Dygyn.woff);
+    src: url(Dygyn.woff2);
 }
-
+@font-face {
+    font-family: rrr;
+    src: url(Roboto-VariableFont_wdth\,wght.woff2);
+}
 @font-face {
     font-family: ddd;
-    src: url(JandaManateeSolid.woff);
+    src: url(JandaManateeSolid.woff2);
 }
 
 * {
@@ -106,7 +109,7 @@ p {
     background-color: aliceblue;
     margin-left: 200px;
     margin-right: 200px;
-    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family:  rrr;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-top: 10px;
